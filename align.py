@@ -147,8 +147,8 @@ def print_matrix(matrix):
 
 
 def main():
-    seq2 = "AGT"
-    seq1 = "AAGC"
+    seq2 = "ATG"
+    seq1 = "GGAATGG"
 
     # columns = j, rows = i
     matrix = np.empty((len(seq1)+1, len(seq2)+1), dtype=Cell)
